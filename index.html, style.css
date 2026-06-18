@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h2>Agro<span>Sustentável</span></h2>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#agronegocio">Agronegócio</a></li>
+                    <li><a href="#familiar">Agricultura Familiar</a></li>
+                    <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produção e a preservação do meio ambiente.</p>
+            <a href="#sustentabilidade" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="agronegocio" class="section-padding">
+        <div class="container grid-2">
+            <div class="content-text">
+                <h2>O Poder do Agronegócio</h2>
+                <p>Como motor da economia global, o agronegócio une tecnologia de ponta e inteligência artificial para produzir alimentos, fibras e bioenergia em larga escala. Essa modernização do campo é o que garante, hoje, a segurança alimentar de bilhões de pessoas.</p>
+                <p>Produzir mais no mesmo espaço: esse é o verdadeiro marco do agro moderno. Ao focar na produtividade vertical, o setor consegue abastecer o mercado e, ao mesmo tempo, reduzir a necessidade de ocupar novas áreas de terra.</p>
+            </div>
+            <div class="content-img">
+                <img src="https://images.unsplash.com/photo-1592982537447-7440771109a2?auto=format&fit=crop&w=600&q=80" alt="Tecnologia no Agronegócio de grande escala">
+            </div>
+        </div>
+    </section>
+
+    <section id="familiar" class="section-padding bg-light">
+        <div class="container grid-2 id-reverse">
+            <div class="content-img">
+                <img src="https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=600&q=80" alt="Agricultura Familiar e cultivo manual saudável">
+            </div>
+            <div class="content-text">
+                <h2>A Essência da Agricultura Familiar</h2>
+                <p>Se o agronegócio move a economia, a agricultura familiar alimenta o dia a dia. Ela é responsável pela maior parte dos alimentos frescos que chegam à mesa das famílias, como frutas, legumes e verduras.</p>
+                <p>Além de sua importância econômica e nutricional, a agricultura familiar desempenha um papel crucial na preservação de práticas tradicionais de cultivo, no desenvolvimento comunitário local e na manutenção da biodiversidade no campo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sustentabilidade" class="section-padding">
+        <div class="container text-center">
+            <h2>O Equilíbrio Sustentável</h2>
+            <p class="subtitle">Produzir sem destruir é o único caminho para o futuro.</p>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Tecnologia Verde</h3>
+                    <p>Uso de drones, sensores e plantio direto para otimizar recursos como água e fertilizantes.</p>
+                </div>
+                <div class="card">
+                    <h3>Preservação</h3>
+                    <p>Integração Lavoura-Pecuária-Floresta (ILPF) e respeito às áreas de reserva legal.</p>
+                </div>
+                <div class="card">
+                    <h3>Bioinsumos</h3>
+                    <p>Utilização de defensores biológicos naturais, reduzindo o impacto químico no solo e lençóis freáticos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 AgroSustentável. Todos os direitos reservados.</p>
+            <p>Unindo forças para nutrir o planeta de forma consciente.</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" title="Voltar ao topo">&#8679;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
